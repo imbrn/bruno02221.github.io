@@ -1,0 +1,39 @@
+// bower:scss
+@import "bower_components/bootstrap/scss/bootstrap.scss";
+// endbower
+
+@import "utils";
+@import "typography";
+@import "image";
+
+
+body {
+    font-family: $font-default;
+}
+
+.page {
+    min-height: 100vh;
+}
+
+.cover.page {
+    background-image: url("/images/cover.jpeg");
+    background-size: auto 100vmax;
+    background-position: center;
+    @extend .center;
+    @extend .center-vert;
+
+    .profile-little-box {
+        .img {
+            height: 24vh;
+            width: 24vh;
+            @include border-radius(50%);
+        }
+
+        @extend .center;
+        @extend .center-vert;
+        flex-direction: column;
+
+        h1 { color: white; }
+        h3 { color: rgba(255, 255, 255, 0.5); }
+    }
+}

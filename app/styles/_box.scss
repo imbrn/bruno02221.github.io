@@ -1,0 +1,6 @@
+.center {
+    display: flex;
+    &.center-vert {
+        align-items: center;
+    }
+}

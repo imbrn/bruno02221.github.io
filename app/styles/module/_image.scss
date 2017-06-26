@@ -1,0 +1,15 @@
+.image {
+    position: relative;
+    overflow: hidden;
+}
+
+.circle.image {
+    border-radius: 50%;
+}
+
+.portrait.image {
+    img {
+        width: 100%;
+        height: auto;
+    }
+}

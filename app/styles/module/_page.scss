@@ -1,0 +1,10 @@
+.page {
+    min-height: 100vh;
+}
+
+.cover.page {
+    @extend %center-content;
+    background-image: url("/images/cover.jpeg");
+    background-size: auto 100vmax;
+    background-position: center;
+}

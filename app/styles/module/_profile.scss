@@ -1,0 +1,34 @@
+.profile {
+    @extend %center-content;
+    @extend %center-content-vertical;
+
+    .image {
+        @extend %shaded-box;
+        width: 200px;
+        height: 200px;
+    }
+
+    .title {
+        .name {
+            @extend %shaded-text;
+            text-align: center;
+            font-size: 5em;
+            color: $over-image-text-color;
+        }
+
+        .fullname, .office {
+            @extend %shaded-text;
+            font-size: 1.1em;
+            color: rgba($over-image-text-color, 0.85);
+        }
+
+        .fullname {
+            float: left;
+            font-weight: bold;
+        }
+
+        .office {
+            float :right;
+        }
+    }
+}

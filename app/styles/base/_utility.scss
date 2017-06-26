@@ -1,0 +1,27 @@
+%center-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+%center-content-horizontal {
+    flex-direction: row;
+}
+
+%center-content-vertical {
+    flex-direction: column;
+}
+
+%spaced-line {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+%shaded-box {
+    box-shadow: $x-shadow-size $y-shadow-size $shadow-blur $shadow-color;
+}
+
+%shaded-text {
+    text-shadow: $x-shadow-size $y-shadow-size $shadow-blur $shadow-color;
+}

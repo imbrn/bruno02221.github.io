@@ -2,8 +2,17 @@
 @import "bower_components/bootstrap/scss/bootstrap.scss";
 // endbower
 
-@import "image";
+/*
+VARIABLES AND UTILITIES
+==================================*/
+@import "base/color";
+@import "base/shadow";
+@import "base/utility";
 
-@import "common";
-@import "page";
-@import "cover";
+/*
+MODULE
+==================================*/
+@import "module/typography";
+@import "module/image";
+@import "module/page";
+@import "module/profile";
